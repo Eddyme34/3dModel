@@ -1,0 +1,20 @@
+---------- v5 ----------
+Add multiple demos 
+Add arc ball camera
+Included tiny_obj_loader for loading meshes
+Add skeleton code for p3
+---------- v4 ----------
+Add demo 6 showing the line drawing mode
+Add skeleton code for p2
+---------- v3 ----------
+Add demos for using shader
+Add CMake helpers and BIN2C tool for embedding shaders
+---------- v2 ----------
+Fix the following compilation error:
+  1. Windows does not include <string> by default with <iostream>, thus added #include <string> in util.cpp.
+  2. On some systems with GLEW pre-installed, imgui will pick the wrong loading libraries. Added compile definitions in imgui/CMakeLists.txt to fix the issue.
+Fix the MakePix function
+---------- v1 ----------
+Move projects/p0 into demo
+Added additional demo for using GUI interfaces
+Added skeleton code for p0
